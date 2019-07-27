@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Cepte Diyetisyen</string>
+
+    <string name="hint_name">Ad</string>
+    <string name="hint_surname">Soyad</string>
+    <string name="hint_email">E-Posta</string>
+    <string name="hint_password">Şifre</string>
+    <string name="hint_password_repetition">Şifre Tekrar</string>
+
+    <string name="val_enter_name">Lütfen Ad Bilgisi Giriniz</string>
+    <string name="val_enter_surname">Lütfen Soyad Bilgisi Giriniz</string>
+    <string name="val_enter_username">Lütfen Geçerli Mail Giriniz</string>
+    <string name="val_enter_password">Lütfen Geçerli Şifre Giriniz</string>
+    <string name="val_confirm_password">Girilen Şifreler Eşleşmedi</string>
+    <string name="val_signup">Üye Ol</string>
+    <string name="val_login">Giriş Yap</string>
+    <string name="val_remember">Beni Hatırla</string>
+
+    <string name="alert">Uyarı</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="settings">Ayarlar</string>
+    <string name="title_home">Home</string>
+    <string name="alert_no_connection">Lütfen İnternet Bağlantınızı Kontrol Ediniz</string>
+    <string name="profile">Profil</string>
+
+
+    <string name="navigation_dietitian">Diyetisyenler</string>
+    <string name="navigation_healty_diet">Sağlıklı Beslenme</string>
+    <string name="navigation_where">Nereden Alabilirim</string>
+    <string name="navigation_healty_recipe">Sağlıklı Yemek Tarifleri</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>
