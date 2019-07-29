@@ -11,13 +11,13 @@ import com.google.firebase.database.FirebaseDatabase;
 import static com.gelecegiyazanlar.ceptediyetisyen.impl.DBFields.USERS;
 
 
-public class StartInteracter {
+public class UserInteracter {
 
-    private final String TAG = StartInteracter.class.getSimpleName();
+    private final String TAG = UserInteracter.class.getSimpleName();
     private final FirebaseAuth mAuth;
     private final DatabaseReference mDatabase;
 
-    public StartInteracter() {
+    public UserInteracter() {
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference();
     }

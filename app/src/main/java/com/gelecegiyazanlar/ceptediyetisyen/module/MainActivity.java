@@ -17,6 +17,7 @@ import com.gelecegiyazanlar.ceptediyetisyen.R;
 import com.gelecegiyazanlar.ceptediyetisyen.base.BaseBindingActivity;
 import com.gelecegiyazanlar.ceptediyetisyen.databinding.ActivityMainBinding;
 import com.gelecegiyazanlar.ceptediyetisyen.module.dietitian.DietitianFragment;
+import com.gelecegiyazanlar.ceptediyetisyen.module.healtyRecipe.HealtyRecipeFragment;
 import com.gelecegiyazanlar.ceptediyetisyen.utils.Utils;
 import com.google.android.material.navigation.NavigationView;
 
@@ -82,6 +83,8 @@ public class MainActivity extends BaseBindingActivity<ActivityMainBinding> {
 
         if (id == R.id.nav_dietitian) {
             fragment = new DietitianFragment();
+        } else if (id == R.id.nav_healty_recipe) {
+            fragment = new HealtyRecipeFragment();
         }
 
         if (fragment != null) {

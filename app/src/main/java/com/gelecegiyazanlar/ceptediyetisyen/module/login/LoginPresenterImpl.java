@@ -2,16 +2,16 @@ package com.gelecegiyazanlar.ceptediyetisyen.module.login;
 
 import com.gelecegiyazanlar.ceptediyetisyen.base.mvp.callback.ICallbackListener;
 import com.gelecegiyazanlar.ceptediyetisyen.base.mvp.validator.IFormValidator;
-import com.gelecegiyazanlar.ceptediyetisyen.impl.StartInteracter;
+import com.gelecegiyazanlar.ceptediyetisyen.impl.UserInteracter;
 
 public class LoginPresenterImpl implements LoginContract.LoginPresetner<LoginContract.LoginView>, ICallbackListener<String> {
 
     private IFormValidator formValidator;
     private LoginContract.LoginView view;
-    private StartInteracter loginInteracter;
+    private UserInteracter loginInteracter;
 
     LoginPresenterImpl() {
-        loginInteracter = new StartInteracter();
+        loginInteracter = new UserInteracter();
     }
 
     @Override

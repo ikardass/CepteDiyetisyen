@@ -4,16 +4,16 @@ package com.gelecegiyazanlar.ceptediyetisyen.module.signup;
 import com.gelecegiyazanlar.ceptediyetisyen.base.mvp.callback.ICallbackListener;
 import com.gelecegiyazanlar.ceptediyetisyen.base.mvp.validator.IFormValidator;
 import com.gelecegiyazanlar.ceptediyetisyen.model.User;
-import com.gelecegiyazanlar.ceptediyetisyen.impl.StartInteracter;
+import com.gelecegiyazanlar.ceptediyetisyen.impl.UserInteracter;
 
 public class SignupPresenterImpl implements SignupContract.SignupPresetner<SignupContract.SignupView>, ICallbackListener<String> {
 
     private IFormValidator formValidator;
     private SignupContract.SignupView view;
-    private StartInteracter loginInteracter;
+    private UserInteracter loginInteracter;
 
     SignupPresenterImpl() {
-        loginInteracter = new StartInteracter();
+        loginInteracter = new UserInteracter();
     }
 
     @Override
